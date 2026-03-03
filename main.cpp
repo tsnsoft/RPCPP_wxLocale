@@ -61,6 +61,7 @@ int main(int argc, char** argv) {
 	std::wstring fio; // Создать строковую переменную
 	std::getline(std::wcin, fio); // Считать строку
 	wxPuts(_(L"Привет") + ", " + fio + "!"); // Вывести строку
+	wxPuts(_(L"Рад знакомству!")); // Вывести строку
 	
 #ifdef __WXMSW__ // Определение для Windows
 	system("pause"); // Приостановить выполнение программы
